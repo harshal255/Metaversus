@@ -7,8 +7,6 @@ import { TitleText, TypingText } from '../components';
 import { fadeIn, staggerContainer } from '../utils/motion';
 import Peoples from '../components/Peoples';
 
-
-
 const World = () => (
   <section className={`${styles.paddings} relative z-10`}>
     <motion.div
@@ -49,17 +47,14 @@ const World = () => (
 
         <div className="absolute top-[48px] right-[17%] w-[196px] h-[150px] p-[6px] rounded-[10px] bg-[#5D6680] hidden sm:inline-block">
 
-          <Peoples imgUrl="/planet-01.png" Title="Hawkins Labs"></Peoples>
+          <Peoples imgUrl="/planet-01.png" Title="Hawkins Labs" />
         </div>
 
         <div className="absolute top-1/2 right-[65%] w-[196px] h-[150px] p-[6px] rounded-[10px] bg-[#5D6680] hidden sm:inline-block">
 
-          <Peoples imgUrl="/planet-02.png" Title="The Upside Down"></Peoples>
-
-
+          <Peoples imgUrl="/planet-02.png" Title="The Upside Down" />
 
         </div>
-
 
       </motion.div>
     </motion.div>
